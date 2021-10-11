@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerebrum</title>
+    <link rel="icon" href="images/logo.svg">
+      <script src="https://kit.fontawesome.com/4ea96ace4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+     integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style/login.css" type="text/css">
+</head>
+
+<body class="mainContainer" onresize="checkSize()">
+ <div class="container-fluid ">
+
+        <!-- section navigation -->
+
+        <nav class="nav-bar">
+            <span id="nav-toggle">
+                <i class="toggle fas fa-bars" id="toggle-open"></i>
+                <i class="toggle fas fa-times" id="toggle-close"></i>
+            </span>
+            <div class="nav-logo">
+                <img id="logo" src="images/logo.svg" alt="Our Logo">
+                <h1 id="nav-header">Cerebrum</h1>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a class="nav-list-link" href="index.html">Home</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="Doctor.html">Contact</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="About.html">About Us</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="Services.html">Services</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+        <!-- END of section navigation -->
+
+       <!--LOGIN STARTS HERE-->
+       <div class="container">
+        <div class="row">
+            <div class="col-6 sm-6">
+                <img src="images/sampl.jpg">
+                <p class="start">Start your journry with us</p>
+            </div>
+            <div class="col-6 sm-6">
+                <div class="social_media">
+                      <i class="toggle fas fa-bars"></i>
+                <i class="toggle fas fa-times"></i>
+                  <i class="toggle fas fa-bars"></i>
+                <i class="toggle fas fa-times"></i>
+                </div>
+
+         <form action="form">
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="" class="input-control">
+            </div>
+            <div class="input-group1">
+                <label id="create">Password</label>
+
+                <input type="password" name="password" id="password" placeholder="Enter the password" >
+                <i class="fas fa-eye-slash" id="eye"></i>
+            </div>
+            <h3 id = "forget">Forgot password?</h3>
+                <div class="input-group2">
+            <button>Start my journey</button>
+          </div>
+          <a href="Registration.html" class = "member">Not a member Yet? Sign up</a>
+            <!--This will contain the registration form-->
+        </form>
+        </div>
+       </div>
+   </div>
+
+
+
+
+                <!--Add your body here-->
+
+
+
+
+
+  <!--Footer here-->
+
+    <footer>
+
+        <div class="footer-item">
+            <a href="contact us">Contact Us</a>
+        </div>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
